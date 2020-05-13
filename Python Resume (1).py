@@ -87,8 +87,6 @@ plt.axhline(y=1, xmin=0, xmax=1, color='steelblue', linewidth=200)
 #Header section
 plt.annotate(Name, (.02,.94), weight='bold', fontsize=25, color='white')
 plt.annotate(Subtitle, (.99,.84), horizontalalignment='right', weight='regular', fontsize=11, color='white' )
-#plt.annotate(Email, (.99,.88), horizontalalignment='right', weight='heavy', fontsize=14, color='white')
-#plt.annotate(phone, (.99,.84), horizontalalignment='right', weight='heavy', fontsize=14, color='white')
 plt.annotate(Email, (.02,.88), weight='heavy', fontsize=14, color='white')
 plt.annotate(phone, (.02,.85), weight='heavy', fontsize=14, color='white')
 
